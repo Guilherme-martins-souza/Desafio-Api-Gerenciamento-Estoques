@@ -29,6 +29,8 @@ npm run start:dev.
     
     obs: 1 Caso não esteja utilizando o postgres você precisa trocar o "type:" em app.module.ts.
          2 Você pode criar uma secret key utilizando o comando "openssl rand -base64 32".
+  ```
+  ```
   2 Segundo, recebendo um token.
   
     A API basicamente consiste em 5 módulos sendo eles; auth, users, estoque, produto e produto_estoque. Para criarmos um produto, 
@@ -56,6 +58,8 @@ npm run start:dev.
     }
     
     Então você receberá seu token, ele está configurado para durar 8 minutos.
+    ```
+    ```
   3 Terceiro, criando um produto_estoque.
   
     Agora que você já tem seu token, a partir de um Header com nome "Authorization" a valor "Bearer "seu_token_aqui"", você
@@ -81,7 +85,8 @@ npm run start:dev.
               } 
               
     Você pode ver uma lista dos produto_estoque que existem fazendo uma chamada "GET" no endereço api/v1/produto-estoque .           
-  
+  ```
+  ```
   4 Quarto, Módulos e suas chamadas.
   
      1/5 Users.
@@ -170,8 +175,7 @@ npm run start:dev.
          
       Destroy: Deleta estoque do front.
         DEL localhost:3000/api/v1/estoques/id_desejado
-        
-      
+
 ```
 
 ## Author
