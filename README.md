@@ -1,4 +1,4 @@
-# Desafio Frexco 👋
+# Desafio Gerenciamento de estoque 👋
 
 > API de gerenciamento de estoque em NODEJS com NESTJS e Autenticação JWT.
 
